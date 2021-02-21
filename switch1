@@ -1,0 +1,21 @@
+#include<stdio.h>
+main()
+{
+//1.display the menu
+printf("choose an number: \n1. 1\n2.  0);
+//read their choice
+int choice=0;
+scanf("%d", &choice);
+switch(choice)
+{
+case 1:
+printf("the number is 1");
+break
+case2:
+printf("the number is 0");
+break
+default:
+print("i enter a number that isnt in the list");
+}
+}
+
